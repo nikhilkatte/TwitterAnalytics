@@ -56,6 +56,7 @@ The goal is to explore 487 U.S. politicians stance/view on a particular topic/su
 Of the entire set, 265 people are Republicans and 222 people are Democrats. I get all politicians tweets/retweets .Due to the API limit, I could collect only around 3,300 most recent tweets for each user. This results in a dataset of 487 U.S. politicians and 713,830 tweets.
 
 Out of these tweets, I generated the top tweeted topics using LDA(Latent Dirichlet Allocation) using gensim and nltk libraries. Results for top 5 topics using LDA are:
+
        Topic    Top words
        1        House, Senate
        2        Jobs, Congress
